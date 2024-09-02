@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glare Cities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header, .footer {
+            background-color: #f8f8f8;
+            padding: 20px;
+            text-align: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .cities {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .city {
+            position: relative;
+            overflow: hidden;
+        }
+        .city img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .monument-title {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="nav">
+            <div>
+                <a href="#">Glare</a>
+                <a href="#">Mission</a>
+                <a href="#">Personality Test</a>
+                <a href="#">Glare Labs</a>
+            </div>
+            <div>
+                <a href="#">English</a>
+                <a href="#">LOG IN</a>
+            </div>
+        </div>
+        <h1>GLARE CITIES</h1>
+        <p>View all the cities with which we are connected.</p>
+    </div>
+
+    <div class="cities">
+        <div class="city">
+            <img src="city1.jpg" alt="Glare Top 10">
+            <div class="monument-title">Glare Top 10</div>
+        </div>
+        <div class="city">
+            <img src="city2.jpg" alt="United States">
+            <div class="monument-title">United States</div>
+        </div>
+        <div class="city">
+            <img src="city3.jpg" alt="United Kingdom">
+            <div class="monument-title">United Kingdom</div>
+        </div>
+        <div class="city">
+            <img src="city4.jpg" alt="Canada">
+            <div class="monument-title">Canada</div>
+        </div>
+        <div class="city">
+            <img src="city5.jpg" alt="Asia - Pacific">
+            <div class="monument-title">Asia - Pacific</div>
+        </div>
+        <div class="city">
+            <img src="city6.jpg" alt="Latin America">
+            <div class="monument-title">Latin America</div>
+        </div>
+        <div class="city">
+            <img src="city7.jpg" alt="Europe">
+            <div class="monument-title">Europe</div>
+        </div>
+        <div class="city">
+            <img src="city8.jpg" alt="Europe East">
+            <div class="monument-title">Europe East</div>
+        </div>
+        <div class="city">
+            <img src="city9.jpg" alt="Europe North">
+            <div class="monument-title">Europe North</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>
+            <a href="#">Contact</a>
+            <a href="#">16 Personalities</a>
+            <a href="#">Careers</a>
+            <a href="#">Security</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">FAQs</a>
+            <a href="#">Safe Dating Tips</a>
+            <a href="#">Press</a>
+        </div>
+        <p>© 2021 Glare Inc.</p>
+        <a href="#">BACK TO TOP</a>
+    </div>
+
+</body>
+</html>

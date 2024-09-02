@@ -1,0 +1,87 @@
+/* About Us Section Styles */
+.about-us {
+    padding: 40px 20px;
+    background-color: var(--background-light-blue);
+    text-align: center;
+}
+
+.about-us-top {
+    margin-bottom: 40px;
+}
+
+.about-us-top h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--primary-color-orange);
+}
+
+.about-us-top p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    padding: 20px;
+}
+
+.about-us-text {
+    text-align: left;
+    padding: 20px;
+}
+
+.about-us-text h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color-orange);
+    margin-bottom: 10px;
+}
+
+.about-us-text p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.team {
+    text-align: left;
+}
+
+.team h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color-orange);
+    margin-bottom: 10px;
+}
+
+.team-member {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive styles for About Us */
+@media (max-width: 768px) {
+    .about-us-content {
+        grid-template-columns: 1fr;
+    }
+}

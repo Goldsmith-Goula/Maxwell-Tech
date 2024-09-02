@@ -1,0 +1,71 @@
+/* Contact Us Section Styles */
+.contact-us {
+    padding: 40px 20px;
+    background-color: var(--background-light-blue);
+    text-align: center;
+}
+
+.contact-us-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-us h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: var(--primary-color-orange);
+}
+
+.contact-us p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: var(--primary-color-orange);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: darkorange;
+}
+
+/* Responsive styles for Contact Us */
+@media (max-width: 768px) {
+    .contact-us-container {
+        padding: 20px;
+    }
+}

@@ -1,0 +1,87 @@
+/* Monument Page Styles */
+.monument-top {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.monument-image img {
+    width: 100%;
+    max-width: 400px; /* Adjust the max width as needed */
+    border-radius: 10px;
+}
+
+.monument-info {
+    flex: 1;
+}
+
+.monument-info h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.monument-info a {
+    display: inline-block;
+    color: var(--primary-color-orange);
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.monument-info a:hover {
+    text-decoration: underline;
+}
+
+/* Bottom Section: Details and Gallery */
+.monument-bottom {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+    padding: 20px;
+    max-height: calc(100vh - 150px); /* Adjust based on header/footer height */
+}
+
+.monument-details {
+    overflow-y: auto;
+    padding-right: 10px;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.monument-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: scroll;
+    max-height: 60vh;
+    padding-right: 10px;
+}
+
+/* Custom scrollbar */
+.monument-gallery::-webkit-scrollbar, 
+.monument-details::-webkit-scrollbar {
+    width: 8px;
+}
+
+.monument-gallery::-webkit-scrollbar-thumb, 
+.monument-details::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color-orange);
+    border-radius: 4px;
+}
+
+.monument-gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media  screen and (max-width: 768px) {
+
+    .monument-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .monument-gallery {
+        height: 100vh;
+    }
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cameroon</title>
+    
+    <!-- Google Font and Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./images/logo.png" alt="Logo">
+                <span class="c-name">MonuCam</span>
+            </div>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" >About Us</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+              
+
+                <button id="dark-mode-toggle" class="dark-mode-button">🌙 Dark Mode</button>
+
+            </ul>
+            <!-- Add dark mode toggle button in the header -->
+           
+   
+
+        </nav>
+        
+    </header>
+   <!-- Contact Us Section -->
+   <section class="contact-us">
+    <div class="contact-us-container">
+        <h1>Contact Us</h1>
+        <p>If you have any questions or need more information about the monuments in Cameroon, feel free to reach out to us. We'd love to hear from you!</p>
+        <form id="contact-form" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+    <!-- Footer -->
+     
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <img src="./images/logo.png" alt="Logo" class="footer-logo">
+                <p>Follow us on social media.</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/tchouala-goula-ii-goldsmith-245313246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Goldsmith-Goula" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://x.com/Tchouala_?t=HtQ-lRNsFeIjCJMLftARGg&s=09" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-column">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="Readme.md">Features & Integrations</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Terms of services</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="copyright-year"></span> <span class="c-name">MonuCam.</span> All rights reserved.</p>
+            <p><a href="#">Term & Condition</a></p>
+        </div>
+    </footer>
+
+   <!-- EmailJS -->
+   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+   <!-- contact script -->
+    <script src="contact.js"></script>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

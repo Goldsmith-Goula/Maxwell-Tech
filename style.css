@@ -1,0 +1,458 @@
+/* Root colors and general styles */
+:root {
+    --primary-color-orange: rgb(255, 165, 0);
+    --dark-color: black;
+    --background-light-blue: rgb(239, 242, 247);
+    --secondary-color-white: white;
+    --text-color: rgb(244, 244, 244);
+}
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: rgb(18, 18, 18);
+    color: var(--text-color);
+}
+
+header.dark-mode,.footer.dark-mode, .nav-links.dark-mode {
+    background-color: rgb(30, 30, 30);
+}
+
+header.dark-mode span {
+    background-color: var(--text-color);
+}
+.nav-links.dark-mode a{
+    color: var(--text-color);
+}
+
+header.dark-mode .logo span {
+    background: transparent;
+}
+.nav-links.dark-mode a:hover {
+    color: var(--primary-color-orange);
+}
+
+.nav-links li a.active {
+    font-weight: 600;
+    color: var(--primary-color-orange);
+    text-decoration: underline; /* Underline for active class */
+}
+
+
+.hero.dark-mode {
+    background-image: url('./images/2-hero.png'); /* Replace with a suitable dark mode image */
+    color: var(--text-color);
+}
+
+.facts.dark-mode {
+    background-color: rgb(30, 30, 30);
+    color: var(--text-color);
+}
+
+.monument-title.dark-mode {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer.dark-mode {
+    background-color: rgb(30, 30, 30);
+}
+
+.footer-column.dark-mode h3, .footer-column.dark-mode a {
+    color: var(--text-color);
+}
+
+.footer-column.dark-mode a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom.dark-mode p, .footer-bottom.dark-mode a {
+    color: var(--text-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-color: var(--background-light-blue);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header and Navbar */
+header {
+    background-color: var(--secondary-color-white);
+    padding: 5px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+.logo span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    background: transparent;
+}
+
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #333;
+    border-radius: 2px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 0.5;
+}
+
+.nav-links li {
+    margin: 0 5px;
+}
+
+.nav-links a {
+    color: var(--dark-color);
+    font-size: large;
+}
+
+.nav-links a:hover {
+    color: var(--primary-color-orange); 
+    font-weight: 600;
+}
+
+.dark-mode-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .dark-mode-button:hover {
+    background-color: #eee;
+  }
+
+  .dark-mode {
+    background-color: #222;
+    color: #eee;
+  }
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('./images/1-hero.jpg'); /* Replace with your hero background image */
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+    
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+span.c-name {
+    color: orange;
+    
+}
+.hero p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: var(--primary-color-orange);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cta-button:hover {
+    background-color: darken(var(--primary-color-orange), 10%);
+}
+
+
+
+/* Main grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Monuments section styling */
+.monuments {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.monument {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.monument img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.monument-title {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Facts section styling */
+.facts {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.facts h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.facts ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.facts ul li {
+    margin-bottom: 10px;
+}
+
+
+/* footer section styles */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .footer-left {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .footer-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-left p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+  }
+  
+  .social-icon .fab {
+    color: white;
+  }
+  
+  .social-icon:hover .fab {
+    color: #ddd;
+  }
+  
+  .social-icon .fa-instagram {
+    color: #E4405F;
+  }
+  
+  .social-icon .fa-facebook {
+    color: #1877F2;
+  }
+  
+  .social-icon .fa-youtube {
+    color: #FF0000;
+  }
+  
+  .footer-right {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .footer-bottom p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-bottom p a:hover {
+    text-decoration: underline;
+  }
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: var(--secondary-color-white);
+        border-top: 1px solid #ddd;
+        transition: transform 0.3s ease-out;
+      
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    
+/*footer section styles responsive*/
+
+
+.footer-right {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+}
