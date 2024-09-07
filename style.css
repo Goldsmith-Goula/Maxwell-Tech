@@ -210,7 +210,9 @@ span.c-name {
 }
 
 .cta-button:hover {
-    background-color: darken(var(--primary-color-orange), 10%);
+  background-color: var(--primary-color-orange);
+  filter: brightness(130%);
+  color: #000;
 }
 
 
@@ -322,20 +324,9 @@ span.c-name {
   }
   
   .social-icon:hover .fab {
-    color: #ddd;
+    color: var(--primary-color-orange);
   }
   
-  .social-icon .fa-linkedin {
-    color: #e5e9ef;
-  }
-  
-  .social-icon .fa-facebook {
-    color: #1a1b1c;
-  }
-  
-  .social-icon .fa-twitter {
-    color: #1877F2;
-  }
   
   .footer-right {
     flex: 2;
@@ -374,6 +365,7 @@ span.c-name {
   
   .footer-column ul li a:hover {
     text-decoration: underline;
+    color: var(--primary-color-orange);
   }
   
   .footer-bottom {
