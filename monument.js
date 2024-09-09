@@ -25,7 +25,8 @@ function displayMonumentDetails(monument) {
     document.getElementById('monumentImage').alt = monument.name;
     document.getElementById('monumentName').textContent = monument.name;
     document.getElementById('monumentLocation').textContent = monument.location;
-    document.getElementById('monumentLocation').href = monument.mapLink;
+    document.getElementById('monumentGPS').href = monument.mapLink;
+
     document.getElementById('monumentDetails').textContent = monument.details;
 
     // Display sub-images in the gallery

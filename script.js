@@ -47,3 +47,19 @@ darkModeToggle.addEventListener('click', () => {
         darkModeToggle.textContent = '🌙 Dark Mode';
       }
 });
+
+
+
+
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'fr,es,de,it,pt,ru,ja,ko,en,ar', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+
+function changeLanguage(lang) {
+    var translateElement = document.getElementById('google_translate_element');
+    translateElement.innerHTML = ''; 
+
+    var contentToTranslate = document.getElementById('translatable-content');
+    new google.translate.TranslateElement({pageLanguage: lang, includedLanguages: 'fr,es,de,it,pt,ru,ja,zh-CN,zh-TW,ko,ar', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, translateElement);
+    translateElement.translate(contentToTranslate);
+}

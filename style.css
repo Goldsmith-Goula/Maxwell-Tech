@@ -8,6 +8,15 @@
 }
 
 
+
+#google_translate_element {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+
 /* Dark Mode Styles */
 body.dark-mode {
     background-color: rgb(18, 18, 18);

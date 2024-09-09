@@ -3,7 +3,7 @@
         "index": 1,
         "name": "Cameroon National Museum",
         "location": "Yaounde, Cameroon",
-        "mapLink": "https://www.google.com/maps?q=Yaounde+Cameroon+National+Museum",
+        "mapLink": "https://maps.app.goo.gl/C1EhE4G8ueFoyzho9",
         "details": "The Cameroon National Museum, located in the capital city of Yaoundé, is a significant cultural and historical monument. Housed in the former presidential palace, the museum showcases a wide variety of artifacts that illustrate Cameroon's rich cultural heritage. Its collections include traditional art, ancient tools, and various artifacts from different ethnic groups in Cameroon, offering insights into the diverse cultures and history of the nation. The museum not only serves as a cultural repository but also as a place for education and research, aiming to preserve Cameroonian culture for future generations. It has become a popular attraction for both locals and tourists, contributing to the cultural and educational development of Cameroon. The museum frequently hosts temporary exhibitions, cultural events, and workshops to engage the public and promote national heritage. The architecture of the building itself is of historical importance, as it represents the colonial past and the transition to independence.",
         "imageSrc": "images/cameroon national museum/1-front view.jpeg",
         "subImages": [
@@ -16,97 +16,111 @@
     {
         "index": 2,
         "name": "Cathedrals in Cameroon",
-        "location": "Douala, Cameroon",
-        "mapLink": "https://www.google.com/maps?q=Douala+Cathedral",
+        "location": "Cameroon",
+        "mapLink": "https://maps.app.goo.gl/zkqvy6LUWCiLPsD38",
         "details":"Cathedrals in Cameroon reflect the country's rich spiritual and architectural heritage, representing both the historical influence of Christianity and the diverse cultural backgrounds of the region. These cathedrals are not only places of worship but also serve as important cultural landmarks that showcase unique architectural styles influenced by both European and local traditions. The Cathedral of Saints Peter and Paul in Douala, one of the oldest and most prominent cathedrals in Cameroon, blends neo-Romanesque and local architectural elements and serves as the seat of the Archdiocese of Douala. The Yaoundé Cathedral, also known as the Cathedral of Our Lady of Victories, located in the capital city, features a tall bell tower and intricate stained glass windows and serves as the main church of the Metropolitan Archdiocese of Yaoundé. Christ the King Cathedral in Bamenda, known for its simple yet elegant design, serves as the spiritual center for the Catholic community in the Northwest Region, while the Bafoussam Cathedral plays a significant role in the spiritual life of the local population in the Western Region. These cathedrals represent religious significance, history, culture, and social development in Cameroon, attracting both pilgrims and tourists who admire their beauty, architecture, and historical importance.",
         "imageSrc": "./images/cathedrals in cameroon/1-church of immaculate side.jpeg",
         "subImages": [
-            "./images/cathedrals in cameroon/2-back view.jpeg",
-            "./images/cathedrals in cameroon/3-interior view.jpeg"
+           
+            "./images/cathedrals in cameroon/edea cathedral.jpg",
+            "./images/cathedrals in cameroon/cathedrale-notre-dame.jpg",
+            "./images/cathedrals in cameroon/cathedrale-notre-dame.jpg",
+            "./images/cathedrals in cameroon/saint-esprit-1.jpg",
+            "./images/cathedrals in cameroon/saint-peter-saint-paul.jpg"
         ]
     },
     {
         "index": 3,
         "name": "The Douala Court House",
         "location": "Douala, Cameroon",
-        "mapLink": "https://www.google.com/maps?q=Douala+Cathedral",
+        "mapLink": "https://maps.app.goo.gl/6B1SxMwQUjbGMywr8",
         "details": "The Douala Court House, also known as the Palais de Justice de Douala, is a significant colonial-era building located in Douala, the largest city in Cameroon. Constructed during the early 20th century under German colonial rule, the courthouse represents an important piece of the city's architectural and historical heritage. The building showcases the German colonial architectural style, characterized by its solid structure, symmetrical design, and the use of locally sourced materials that have withstood the tropical climate over the decades. It has served as a center for the administration of justice in the Littoral Region and remains a symbol of legal authority and order in Douala. Today, the Douala Court House stands not only as a functioning judicial building but also as a landmark that reflects the historical transitions Cameroon has undergone from German to French colonial rule, and eventually to independence, making it a notable monument for both its historical significance and its role in Cameroon's contemporary legal framework.",
         "imageSrc": "./images/Douala Court House/1-Douala court house.jpeg",
         "subImages": [
-            "./images/Douala Court House/2-interior view.jpeg",
-            "./images/Douala Court House/3-top view.jpeg"
+            "./images/Douala Court House/court house.jpeg",
+            "./images/Douala Court House/court.jpeg"
         ]
     },
     {
         "index": 4,
         "name": "The Foumban Museum",
-        "location": "Douala, Cameroon",
-        "mapLink": "https://www.google.com/maps?q=Douala+Cathedral",
-        "description": "The Foumban Museum, located in the town of Foumban in western Cameroon, is a cultural and historical museum that houses an extensive collection of traditional art and artifacts of the Bamoun people. Situated within the Foumban Royal Palace, the museum reflects the rich cultural heritage of the Bamoun Kingdom, which has existed for centuries. The museum's exhibits include royal regalia, sculptures, carvings, masks, thrones, and various objects that illustrate the Bamoun's artistic achievements and history. The Foumban Museum is not only a center for the preservation of the cultural and historical identity of the Bamoun people but also a significant tourist attraction, drawing visitors interested in learning about the traditional practices, craftsmanship, and royal history of the region. As a monument, it embodies the artistic and cultural legacy of the Bamoun Kingdom and serves as a symbol of the enduring influence of traditional African kingdoms in the modern era.",
+        "location": "Foumban, Cameroon",
+        "mapLink": "https://maps.app.goo.gl/AHAPJGq9eiAvwimaA",
+        "details": "The Foumban Museum, located in the town of Foumban in western Cameroon, is a cultural and historical museum that houses an extensive collection of traditional art and artifacts of the Bamoun people. Situated within the Foumban Royal Palace, the museum reflects the rich cultural heritage of the Bamoun Kingdom, which has existed for centuries. The museum's exhibits include royal regalia, sculptures, carvings, masks, thrones, and various objects that illustrate the Bamoun's artistic achievements and history. The Foumban Museum is not only a center for the preservation of the cultural and historical identity of the Bamoun people but also a significant tourist attraction, drawing visitors interested in learning about the traditional practices, craftsmanship, and royal history of the region. As a monument, it embodies the artistic and cultural legacy of the Bamoun Kingdom and serves as a symbol of the enduring influence of traditional African kingdoms in the modern era.",
         "imageSrc": "./images/foumban museum/1-front view.jpeg",
         "subImages": [
-            "./images/foumban museum/2-side view.jpeg",
-            "./images/foumban museum/3-back view.jpeg"
+            "./images/foumban museum/top view.jpeg"
+           
         ]
     },
     {
         "index": 5,
         "name": "The Sultan's Palace in Foumban",
-        "location": "Douala, Cameroon",
-        "mapLink": "https://www.google.com/maps?q=Douala+Cathedral",
-        "description": "The Sultan's Palace in Foumban, also known as the Royal Palace of the Bamoun Sultan, is a historical and cultural landmark located in Foumban, Cameroon. Built in 1917 by Sultan Ibrahim Njoya, the palace is an architectural masterpiece that reflects a blend of traditional Bamoun and Islamic styles with its unique red-brick facade, intricate carvings, and towers. It serves as the residence of the Bamoun Sultanate, a royal dynasty that dates back to the 14th century, and is also a political and spiritual center for the Bamoun people. Inside, the palace houses the Foumban Museum, which showcases a rich collection of artifacts, including royal regalia, ceremonial masks, sculptures, and artworks that tell the history and cultural evolution of the Bamoun Kingdom. The palace is not only a symbol of Bamoun heritage and continuity but also a major tourist attraction, drawing visitors who wish to learn more about the culture, traditions, and history of the Bamoun people and their rulers.",
+        "location": "Foumban, Cameroon",
+        "mapLink": "https://maps.app.goo.gl/xrpEVQjPGzVTtTWX8",
+       "details": "The Sultan's Palace in Foumban, also known as the Royal Palace of the Bamoun Sultan, is a historical and cultural landmark located in Foumban, Cameroon. Built in 1917 by Sultan Ibrahim Njoya, the palace is an architectural masterpiece that reflects a blend of traditional Bamoun and Islamic styles with its unique red-brick facade, intricate carvings, and towers. It serves as the residence of the Bamoun Sultanate, a royal dynasty that dates back to the 14th century, and is also a political and spiritual center for the Bamoun people. Inside, the palace houses the Foumban Museum, which showcases a rich collection of artifacts, including royal regalia, ceremonial masks, sculptures, and artworks that tell the history and cultural evolution of the Bamoun Kingdom. The palace is not only a symbol of Bamoun heritage and continuity but also a major tourist attraction, drawing visitors who wish to learn more about the culture, traditions, and history of the Bamoun people and their rulers.",
         "imageSrc": "./images/foumban palace/1-sultan.jpeg",
         "subImages": [
-            "./images/foumban palace/2-courtyard.jpeg",
-            "./images/foumban palace/3-throne room.jpeg"
+            "./images/foumban palace/front view.jpeg",
+            "./images/foumban palace/drawing.jpeg"
         ]
     },
     {
         "index": 6,
         "name": "The German Colonial Buildings",
         "location": "Douala, Cameroon",
-        "mapLink": "https://www.google.com/maps?q=Douala+Cathedral",
-        "description": "The old German colonial buildings in Cameroon are remnants of the German colonial era, which began in the late 19th century and ended after World War I. These structures, scattered across various cities like Douala, Buea, and Yaoundé, include administrative buildings, residences, schools, and churches that showcase the German architectural style of the time. The buildings are characterized by their distinct European design elements, such as steep roofs, wooden frameworks, spacious verandas, and the use of local materials like brick and stone. Many of these buildings, such as the Governor's Residence in Buea and the German Hospital in Douala, reflect the colonial administration's efforts to establish a European-style urban environment in their colonies. Today, these structures serve as historical landmarks, offering insight into Cameroon's colonial past while also standing as symbols of the complex interactions between European colonial powers and African societies. Some buildings have been preserved and repurposed for modern use, while others are in various states of disrepair, reminding visitors and locals alike of the country's layered history.",
+        "mapLink": "https://maps.app.goo.gl/MWdVD5HPGw5bJbVy7",
+        "details": "The old German colonial buildings in Cameroon are remnants of the German colonial era, which began in the late 19th century and ended after World War I. These structures, scattered across various cities like Douala, Buea, and Yaoundé, include administrative buildings, residences, schools, and churches that showcase the German architectural style of the time. The buildings are characterized by their distinct European design elements, such as steep roofs, wooden frameworks, spacious verandas, and the use of local materials like brick and stone. Many of these buildings, such as the Governor's Residence in Buea and the German Hospital in Douala, reflect the colonial administration's efforts to establish a European-style urban environment in their colonies. Today, these structures serve as historical landmarks, offering insight into Cameroon's colonial past while also standing as symbols of the complex interactions between European colonial powers and African societies. Some buildings have been preserved and repurposed for modern use, while others are in various states of disrepair, reminding visitors and locals alike of the country's layered history.",
         "imageSrc": "./images/german colonial building/1-side view.jpeg",
         "subImages": [
-            "./images/german colonial building/2-front view.jpeg",
-            "./images/german colonial building/3-interior view.jpeg"
+            "./images/german colonial building/1930s.jpeg",
+             "./images/german colonial building/Manga bell Palace.jpeg",
+              "./images/german colonial building/police headquarters.jpeg",
+            "./images/german colonial building/german building top.jpeg"
         ]
     },
     {
         "index": 7,
         "name": "The Kribi Lighthouse",
-        "location": "Douala, Cameroon",
-        "mapLink": "https://www.google.com/maps?q=Douala+Cathedral",
-        "description": "The lighthouse of Kribi, located along Cameroon's Atlantic coastline, is a historic beacon that has guided sailors and fishermen since its construction in the early 20th century during the German colonial era. Standing on a cliff with panoramic views of the Gulf of Guinea, the lighthouse features a cylindrical white tower that rises above the surrounding palm trees, topped with a red lantern room. It served not only as a navigational aid but also as a symbol of the colonial presence, facilitating maritime trade and the movement of goods along the coast. The lighthouse remains operational and continues to play a crucial role in ensuring the safety of vessels navigating the often-turbulent waters around Kribi, a city also known for its beautiful beaches and vibrant fishing industry. Over the years, the structure has become a popular attraction for tourists and locals alike, offering both a historical glimpse into the region's colonial past and a scenic spot for viewing the ocean and the surrounding landscapes.",
+        "location": "Kribi, Cameroon",
+        "mapLink": "https://maps.app.goo.gl/oonaQ6hW7j7tvqbu5",
+        "details": "The lighthouse of Kribi, located along Cameroon's Atlantic coastline, is a historic beacon that has guided sailors and fishermen since its construction in the early 20th century during the German colonial era. Standing on a cliff with panoramic views of the Gulf of Guinea, the lighthouse features a cylindrical white tower that rises above the surrounding palm trees, topped with a red lantern room. It served not only as a navigational aid but also as a symbol of the colonial presence, facilitating maritime trade and the movement of goods along the coast. The lighthouse remains operational and continues to play a crucial role in ensuring the safety of vessels navigating the often-turbulent waters around Kribi, a city also known for its beautiful beaches and vibrant fishing industry. Over the years, the structure has become a popular attraction for tourists and locals alike, offering both a historical glimpse into the region's colonial past and a scenic spot for viewing the ocean and the surrounding landscapes.",
         "imageSrc": "./images/kribi light house/1-light house.jpeg",
         "subImages": [
-            "./images/kribi light house/2-close up.jpeg",
-            "./images/kribi light house/3-night view.jpeg"
+            "./images/kribi light house/old light house.jpeg",
+            "./images/kribi light house/oudated light house.jpeg"
         ]
     },
     {
         "index": 8,
         "name": "Cameroon Mosques",
-        "location": "Douala, Cameroon",
-        "mapLink": "https://www.google.com/maps?q=Douala+Cathedral",
-        "description": "Cameroon is home to several mosques that reflect the country's rich Islamic heritage, with some dating back centuries and others constructed more recently to accommodate the growing Muslim population. The Grand Mosque of Yaoundé, located in the capital, is one of the most prominent mosques in the country, known for its large prayer hall, intricate Islamic architecture, and role as a central place of worship for the city's Muslim community. In the northern regions, particularly in cities like Garoua, Ngaoundéré, and Maroua, many mosques serve as significant religious and cultural centers for the predominantly Muslim population. The Garoua Central Mosque is notable for its minarets and architectural style, reflecting a blend of local and Islamic influences. The mosque in Foumban, located in the heart of the historic Sultanate of Bamoun, is another important Islamic site, illustrating the integration of local traditions with Islamic practices. These mosques not only serve as places of worship but also as community centers, playing a vital role in the spiritual and social life of Cameroon's Muslim communities.",
+        "location": "Yaounde, Cameroon",
+        "mapLink": "https://maps.app.goo.gl/NVEgProztXgSYQpV6",
+        "details": "Cameroon is home to several mosques that reflect the country's rich Islamic heritage, with some dating back centuries and others constructed more recently to accommodate the growing Muslim population. The Grand Mosque of Yaoundé, located in the capital, is one of the most prominent mosques in the country, known for its large prayer hall, intricate Islamic architecture, and role as a central place of worship for the city's Muslim community. In the northern regions, particularly in cities like Garoua, Ngaoundéré, and Maroua, many mosques serve as significant religious and cultural centers for the predominantly Muslim population. The Garoua Central Mosque is notable for its minarets and architectural style, reflecting a blend of local and Islamic influences. The mosque in Foumban, located in the heart of the historic Sultanate of Bamoun, is another important Islamic site, illustrating the integration of local traditions with Islamic practices. These mosques not only serve as places of worship but also as community centers, playing a vital role in the spiritual and social life of Cameroon's Muslim communities.",
         "imageSrc": "./images/mosque/1-garoua.jpeg",
         "subImages": [
-            "./images/mosque/2-interior.jpeg",
-            "./images/mosque/3-minaret.jpeg"
+            "./images/mosque/ngoundere.jpeg",
+            "./images/mosque/the-mosque-central.jpg"
         ]
     },
     {
         "index": 9,
-        "name": "Unification Monuments",
-        "location": "Douala, Cameroon",
-        "mapLink": "https://www.google.com/maps?q=Douala+Cathedral",
-        "description": "The Reunification Monument in Yaoundé, Cameroon, symbolizes the reunification of British Southern Cameroons and French Cameroun in 1961, marking a critical moment in the country's history as it transitioned from colonial rule to independence and unity. Designed by French artist Salomon Eko, the monument features a spiral structure that represents the merging of the two territories, with a statue of a man holding a child at the center, signifying a new beginning for a unified Cameroon. The monument, located in the capital, serves as a significant tourist attraction and a national symbol of unity, independence, and the nation's complex colonial past and aspirations for future cohesion.",
+        "name": "Reunification Monuments",
+        "location": "Yaounde, Cameroon",
+        "mapLink": "https://maps.app.goo.gl/7MnDVuak1bZf4fRs6",
+        "details": "The Reunification Monument in Yaoundé, Cameroon, symbolizes the reunification of British Southern Cameroons and French Cameroun in 1961, marking a critical moment in the country's history as it transitioned from colonial rule to independence and unity. Designed by French artist Salomon Eko, the monument features a spiral structure that represents the merging of the two territories, with a statue of a man holding a child at the center, signifying a new beginning for a unified Cameroon. The monument, located in the capital, serves as a significant tourist attraction and a national symbol of unity, independence, and the nation's complex colonial past and aspirations for future cohesion.",
         "imageSrc": "./images/reunification/1-unity.jpeg",
         "subImages": [
+            "./images/reunification/cinquentenaire.jpeg",
             "./images/reunification/2-close up.jpeg",
-            "./images/reunification/3-evening view.jpeg"
+            "./images/reunification/download.jpeg",
+            "./images/reunification/patriot.jpeg",
+            "./images/reunification/reunification front.jpeg",
+            "./images/reunification/reunification.jpeg",
+            "./images/reunification/reunification_monument.jpeg",
+            "./images/reunification/unity close.jpeg",
+            "./images/reunification/unity-far.jpeg",
+            "./images/reunification/yaounde-independence.jpeg"
         ]
     }
 ]
