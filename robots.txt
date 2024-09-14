@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private/
+Allow: /
+Sitemap: https://goldsmith-goula.github.io/Maxwell-Tech/sitemap.xml
