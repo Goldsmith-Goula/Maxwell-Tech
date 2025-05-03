@@ -71,7 +71,7 @@
 👤 **Goldsmith Goula**
 
 - GitHub: [Goldsmith Goula](https://github.com/Goldsmith-Goula)
-- LinkedIn: [Goldsmith Goula](https://www.linkedin.com/in/tchouala-goula-ii-goldsmith-245313246?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- LinkedIn: [Goldsmith Goula](https://linkedin.com/in/tchouala-goula-ii-goldsmith-317a5035b)
 
 ## Contributing
 
